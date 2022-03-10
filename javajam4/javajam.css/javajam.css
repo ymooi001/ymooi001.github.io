@@ -1,0 +1,176 @@
+body {
+    background-color: #FCEBB6;
+    color:#221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url(../image/background.gif);
+}
+
+header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url("../image/javajamlogo.jpg");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    text-decoration-line: none;
+    float: left;
+    width: 200px;    
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-style: solid;
+    border-top-color: #221811;
+}
+
+#wrapper {
+    background-color: #231814;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px #221811;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom:1px solid black;
+    padding-bottom: 0;
+}
+
+main {
+    padding:0 0 2em 0;
+    display: block;
+    margin:0 0 0 200px;
+    background-color: #FEF6C2;
+
+}
+
+.details {
+    padding: 0 20% 0 20%;
+    overflow: auto;
+}
+
+img {
+    padding: 0 10px 0 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#heroroad {
+    background-image: url(../image/heroroad.jpg);
+    background-size: 100%;
+    height:250px;
+}
+
+#heromugs {
+    background-image: url(../image/heromugs.jpg);
+    background-size: 100%;
+    height:250px;
+}
+
+#heroguitar {
+    background-image: url(../image/heroguitar.jpg);
+    background-size: 100%;
+    height:250px;
+}
+
+#herojobs {
+    background-image: url(../image/herojobs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+h2, h3, h4, p, div, ul, dl {
+    padding: 0 2em 0 3em;
+}
+nav a:link {
+    color:#FEF6C2;
+}
+
+nav a:visited {
+    color:#D2B48C;
+}
+
+nav a:hover {
+    color:#CC9933;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left:0;
+}
+
+.floatleft {
+    float: left;
+    padding: 0 2em 2em 0;
+}
+
+header, nav, main, footer {
+    display:block;
+}
+
+table {
+    margin:auto;
+    align-items: center;
+    width: 90%;
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
+
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
